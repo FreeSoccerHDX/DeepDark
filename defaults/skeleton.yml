@@ -48,4 +48,5 @@ Stats:
   #Range[-1.0-20.0] increases the amount of damage that this entity does (-1.0 will set the damage to 0, 1.0 will double the damage)
   DamageBoostPerc: 3.0
 
-[Attributes in Wiki](https://minecraft.fandom.com/wiki/Attribute#Attributes_available_on_all_living_entities)
+#  Attributes in wiki:
+#  https://minecraft.fandom.com/wiki/Attribute#Attributes_available_on_all_living_entities
