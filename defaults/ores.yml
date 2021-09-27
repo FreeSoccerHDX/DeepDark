@@ -1,9 +1,20 @@
+# This is the default settings-file for each ore (such as diamond ore and even dirt-'ore' or diorite ...)
+# For each ore you have to specify a unique name (progess of minecraft... name does not matter in any other way)
+# You can remove ores or add ores such as modify ores and how they spawn
+
+# The uniqiue name of the ore
 deep_diamond:
+  # Range[1-2048] The amount of trys to generate this ore in each chunk
   perChunk: 60
+  # The minY for the ore to spawn
   minY: -640
+  # [Range: 1-100] The maximum size of the ore 
   size: 4
+  # what material this ore can replace
   ToReplace: deepslate
+  # the maxY where the ore can spawn in the chunk
   maxY: -2
+  # what material the ore has
   OreMaterial: deepslate_diamond_ore
 deep_redstone:
   perChunk: 40
