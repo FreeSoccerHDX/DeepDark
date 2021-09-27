@@ -1,0 +1,140 @@
+deep_diamond:
+  perChunk: 60
+  minY: -640
+  size: 4
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: deepslate_diamond_ore
+deep_redstone:
+  perChunk: 40
+  minY: -640
+  size: 12
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: deepslate_redstone_ore
+deep_iron:
+  perChunk: 120
+  minY: -640
+  size: 12
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: deepslate_iron_ore
+deep_lapis:
+  perChunk: 40
+  minY: -640
+  size: 12
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: deepslate_lapis_ore
+deep_gold:
+  perChunk: 100
+  minY: -640
+  size: 12
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: deepslate_gold_ore
+deep_emerald:
+  perChunk: 150
+  minY: -640
+  size: 4
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: deepslate_emerald_ore
+deep_coal:
+  perChunk: 200
+  minY: -640
+  size: 12
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: deepslate_coal_ore
+deep_copper:
+  perChunk: 80
+  minY: -640
+  size: 24
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: deepslate_copper_ore
+deep_gravel:
+  perChunk: 8
+  minY: -640
+  size: 50
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: gravel
+deep_diorite:
+  perChunk: 8
+  minY: -640
+  size: 50
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: diorite
+deep_granite:
+  perChunk: 8
+  minY: -640
+  size: 50
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: granite
+deep_andesite:
+  perChunk: 8
+  minY: -640
+  size: 50
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: andesite
+deep_cobblestone:
+  perChunk: 8
+  minY: -640
+  size: 50
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: cobblestone
+deep_dirt:
+  perChunk: 8
+  minY: -640
+  size: 50
+  ToReplace: deepslate
+  maxY: -2
+  OreMaterial: dirt
+deep_upper_gravel:
+  perChunk: 8
+  minY: 0
+  size: 50
+  ToReplace: stone
+  maxY: 160
+  OreMaterial: gravel
+deep_upper_diorite:
+  perChunk: 8
+  minY: 0
+  size: 50
+  ToReplace: stone
+  maxY: 160
+  OreMaterial: diorite
+deep_upper_granite:
+  perChunk: 8
+  minY: 0
+  size: 50
+  ToReplace: stone
+  maxY: 160
+  OreMaterial: granite
+deep_upper_andesite:
+  perChunk: 8
+  minY: 0
+  size: 50
+  ToReplace: stone
+  maxY: 160
+  OreMaterial: andesite
+deep_upper_cobblestone:
+  perChunk: 8
+  minY: 0
+  size: 50
+  ToReplace: stone
+  maxY: 160
+  OreMaterial: cobblestone
+deep_upper_dirt:
+  perChunk: 8
+  minY: 0
+  size: 50
+  ToReplace: stone
+  maxY: 160
+  OreMaterial: dirt

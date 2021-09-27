@@ -1,0 +1,60 @@
+World:
+  Worldname: deepdark
+  seed: 12345678987654321
+  minY: -640
+  height: 800
+  allowDeepHoles: true
+  allowColumns: true
+  allowBeds: false
+  extraDark: false
+  TargetMainWorld: world
+  AllowTeleportToDeepDark: true
+  AllowTeleportToOverworld: true
+Messages:
+  darknessDamage: '&4The Darkness damages you!'
+  darknessWarning: '&2The Darkness may damage you!'
+  CommandNoPermissions: '&4You don''t have the permissions for this Command.'
+  CommandSuccesful: '&2Command was successful.'
+  WorldNotEmpty: '&4The DeepDark is not empty. Please move all Players out of it.'
+DarknessDamage:
+  Enabled: true
+  MinLightLevel: 7
+  DamageAbovePerc: 0.5
+  MaxSeconds: 10
+  Damage: 3
+FoodExhaustion:
+  Enabled: true
+  AboveDarknessPerc: 0.5
+  minFoodLevel: 3
+Decoration:
+  prototype_vines: 1
+  vines: 1
+  lake_water: 1
+  lake_lava: 1
+  disk_clay: 1
+  disk_gravel: 1
+  disk_sand: 1
+  fossil: 1
+  prototype_fossil_upper: 1
+  prototype_fossil_lower: 1
+  large_dripstone: 1
+  small_dripstone: 1
+  dripstone_cluster: 1
+  glow_lichen: 1
+  cave_vine: 1
+  cave_vine_in_moss: 1
+  cave_vines: 1
+  moss_patch: 1
+  moss_vegetation: 1
+  clay_with_dripleaves: 1
+  dripleaf: 1
+  clay_pool_with_dripleaves: 1
+  classic_vines_cave_feature: 1
+  monster_room: 10
+  amethyst_geode: 25
+  spore_blossom: 25
+  canyon: 8
+  cave: 8
+  prototype_canyon: 1
+  prototype_crevice: 1
+  prototype_cave: 1

@@ -1,0 +1,30 @@
+Custom-Name: ''
+Custom-Name-Visible: false
+Invisible: false
+Spawn-Weight: 1000
+Min-Spawns: 1
+Max-Spawns: 10
+ExpToDrop:
+  min: 10
+  max: 20
+Items:
+  Hand: air
+  DropChanceHand: 0.0
+  OffHand: air
+  DropChanceOffHand: 0.0
+  Head: air
+  DropChanceHead: 0.0
+  Chest: air
+  DropChanceChest: 0.0
+  Legs: air
+  DropChanceLegs: 0.0
+  Boots: air
+  DropChanceBoots: 0.0
+Stats:
+  Armor: 10
+  ArmorToughness: 0
+  KnockbackResistance: 0.0
+  Knockback: 0.0
+  HealthBoostPerc: 3.0
+  SpeedBoostPerc: 2.0
+  DamageBoostPerc: 3.0
