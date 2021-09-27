@@ -46,7 +46,9 @@ FoodExhaustion:
   AboveDarknessPerc: 0.5
   #[Range:0-20] the minimum of food that the player can have without losing food
   minFoodLevel: 3 
-# enables(value above 0) or disable(values under 1) the specific decoration used in the world generation: will need a server restart and also world-folder deleted to get a clean world
+# enables(value above 0) or disable(values under 1) the specific decoration used in the world generation: will need a server restart and also 
+#   world-folder deleted to get a clean world
+# Higher numbers result in more generation trys: do not use numbers over 50 or else your chunk generation will get laggy and buggy
 Decoration:
   prototype_vines: 1
   vines: 1
