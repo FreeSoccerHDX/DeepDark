@@ -1,12 +1,22 @@
+# each file in the 'mobs'-file represents an entity (based on the name: 'skeleton.yml' will have settings for the skeletons)
+# The name of the entity each time they spawn
 Custom-Name: ''
+# if true: name is always visible in your view-range (if not invisible)
 Custom-Name-Visible: false
+# if true: name is hidden and mob too (only armor/items are displayed)
 Invisible: false
+#Range[1-infinity] a high spawn-weight will result in more spawn-trys (if zombies have a spawn-weight of 500, and no other mobs exist, there will be 2 times more trys to spawn skeletons)
 Spawn-Weight: 1000
+#Range[1-100] each time skeletons should spawn: a random number between min-spawns and max-spawns will try to spawn (but less if terrain is bad...)
 Min-Spawns: 1
 Max-Spawns: 10
+#Range[0-4048] Amount of exp that drop if the mob dies
 ExpToDrop:
   min: 10
   max: 20
+# Equipment of the Entity
+# A Dropchance has a range of 0.0 (0%) to 1.0 (100%) 
+# The Name (default: air) will represent the item that the mob will get
 Items:
   Hand: air
   DropChanceHand: 0.0
@@ -20,11 +30,19 @@ Items:
   DropChanceLegs: 0.0
   Boots: air
   DropChanceBoots: 0.0
+# Special Stats of the mob
 Stats:
+  # Range[0-20]
   Armor: 10
+  # Range[0-30]
   ArmorToughness: 0
+  # Range[0.0-1.0] (0% to 100%) reduces the knockback the mob gets
   KnockbackResistance: 0.0
+  # Range[0.0-5.0] increases the knockback this mob does
   Knockback: 0.0
+  #Range[-0.9-20.0] increases the amount of health of the mob (-0.9 will reduce the default hp to 10%, 1.0 will double the default hp)
   HealthBoostPerc: 3.0
+  #Range[-1.0-5.0] increases the speed of the mob (-1.0 will disable mob movements, 1.0 will double the speed)
   SpeedBoostPerc: 2.0
+  #Range[-1.0-20.0] increases the amount of damage that this entity does (-1.0 will set the damage to 0, 1.0 will double the damage)
   DamageBoostPerc: 3.0
