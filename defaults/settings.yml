@@ -1,4 +1,5 @@
 # Basic Settings about the World (will mostly need restart + delete of world-folder)
+# A change of the world height, name, seed and minY will always need you to restart the Server and also to delete the world-folder.
 World:
   # The Name of the deep dark that will generate (if no special case, do not change it) -> Creates new World on reload
   Worldname: deepdark 
