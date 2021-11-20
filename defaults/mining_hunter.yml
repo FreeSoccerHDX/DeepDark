@@ -1,10 +1,27 @@
+# The min Y where the MiningHunter can spawn. At each Y below this, the player will get hunted.
+# Range: min World-Height(-608 default) - max World-Height(160 default)
 minY: 0
+# After spawning a MiningHunter for a player it has a Cooldown of 30s by default before the next one can spawn.
+# Range: 0-1000
 spawnCooldown: 30
-actionChance: 0.25
+# A chance every 0.25s to do something related to the MiningHunter (Spawning, Calculating...)
+actionChance: 0.05
+# The Name of the Mob
 CustomName: '&6&lMining-Hunter'
+# If the Name should be visible -> not visible if mob is invisible
 CustomNameVisible: true
+# How much extra Armor the Mob will have
+# Range: 0-100
 ArmorBoost: 20
+# How much extra Damage the Mob will do
+# Range: 0-100
 AttackBoost: 20
-SpeedBoost: 0.2
+# How much more Speed the Mob will have (0.02 is equal to 200% of the default speed)
+# Range: 0 - 0.9
+SpeedBoost: 0.02
+# The min Distance of the Mob to the Player when spawning
+# Range: 0-32
 minDistance: 7.0
+# The max Distance of the Mob to the Player when spawning
+# Range: 0-32
 maxDistance: 16.0
