@@ -1,0 +1,10 @@
+minY: 0
+spawnCooldown: 30
+actionChance: 0.25
+CustomName: '&6&lMining-Hunter'
+CustomNameVisible: true
+ArmorBoost: 20
+AttackBoost: 20
+SpeedBoost: 0.2
+minDistance: 7.0
+maxDistance: 16.0
