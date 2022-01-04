@@ -1,0 +1,69 @@
+# Basic Settings about the World (will mostly need restart + delete of world-folder)
+# A change of the world height, name, seed and minY will always need you to restart the Server and also to delete the world-folder.
+World:
+  # The Name of the deep dark that will generate (if no special case, do not change it) -> Creates new World on reload
+  Worldname: deepdark 
+  # The Seed used to generate the deep dark -> Creates weird world if not server restarted + delete of world-folder
+  seed: 12345678987654321
+  # The lowest high that blocks can be placed (should be lower then -64 and a multiple of 16!)
+  minY: -640
+  # The total high of the deep dark, maxY=minY+height (default: 160) (the maxY should be always higher then +160 and a multiple of 16!)
+  height: 800
+  # if set to true: the deep dark will create random 'tunnels' all the way down from y=0 to minY
+  allowDeepHoles: true
+  # if set to true: the deep dark will create random giant columns that 'support the upper terrain'
+  allowColumns: true
+  # if set to false: the bed will explode on enter
+  allowBeds: false
+  # if set to true: the player will have a view distance of a few blocks until its extremly dark
+  extraDark: false
+  # sets the default output of the deep dark. Players will spawn at the spawnlocation of this world if 'AllowTeleportToOverworld' is set to true and they click with glowstonedust on respawn anchor
+  TargetMainWorld: world
+  # if set to true: Players can enter the deep dark, if they jump in a endportal with a respawn anchor below it
+  AllowTeleportToDeepDark: true
+  # if set to true: Players can leave the deep dark, if they click on a respawn anchor with a glowstone dust (they will teleport to the spawnlocation of the 'TargetMainWorld')
+  AllowTeleportToOverworld: true
+Messages:
+  darknessDamage: '&4The Darkness damages you!'
+  darknessWarning: '&2The Darkness may damage you!'
+  CommandNoPermissions: '&4You don''t have the permissions for this Command.'
+  CommandSuccesful: '&2Command was successful.'
+  WorldNotEmpty: '&4The DeepDark is not empty. Please move all Players out of it.'
+DarknessDamage:
+  # if set to true: Players will get damage after beeing in the darkness for too long
+  Enabled: true
+  #Range[0-15] the level that the players needs to be in without getting hunted by the darkness
+  MinLightLevel: 7
+  #Range[0.0-1.0] if the current time/MaxSeconds is below this Perc. the player will get warnings, otherwise damage
+  DamageAbovePerc: 0.5
+  #Range[1-infinity?] the maximum time that will be counted to get the maximum damage (used for DamageAbovePerc)
+  MaxSeconds: 10
+  #Range[0.0-1024.0] this will damage the player if he was to long in the darkness (depends on minlightlevel, damageaboveperc, maxseconds) 
+  Damage: 3
+FoodExhaustion:
+  # if set to true, and also DarknessDamage is enabled: the player will also lose food while getting damage from the darkness
+  Enabled: true
+  #[Range:0.0-1.0] the perc above which the player will lose food based on time in darkness and maxseconds in darkness
+  AboveDarknessPerc: 0.5
+  #[Range:0-20] the minimum of food that the player can have without losing food
+  minFoodLevel: 3 
+# enables(value above 0) or disable(values under 1) the specific decoration used in the world generation: will need a server restart and also 
+#   world-folder deleted to get a clean world
+# Higher numbers result in more generation trys: do not use numbers over 50 or else your chunk generation will get laggy and buggy
+Decoration:
+  vines: 1
+  lake_lava: 1
+  disk_clay: 1
+  disk_gravel: 1
+  disk_sand: 1
+  large_dripstone: 1
+  small_dripstone: 1
+  dripstone_cluster: 1
+  glow_lichen: 1
+  cave_vines: true
+  dripleaf: 1
+  monster_room: true
+  amethyst_geode: true
+  spore_blossom: true
+  canyon: true
+  cave: true
